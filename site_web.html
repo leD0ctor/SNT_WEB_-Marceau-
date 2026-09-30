@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+    <title>la page de moi</title>
+</head>
+<body>
+    <h1>salut</h1>
+    <p>bienvenue sur mon site</p>
+	<p id="changer">voila ta nouvelle maison</p>
+	<img src="maison.webp" with="400">
+	<button onclick="alert('c est bien tu as cliquer mais cela ne servait a rien (snif)')">clique ici</button>
+	<button onclick="alert('votre maison est en cours de traitement dans notre base de donnée merci de votre patience')">obtenir la maison</button>
+	<button id="valider" onclick="changer()">validez votre commande de maison</button>
+	<p id="prix">rien n'a été débiter sur votre compt</p>
+	<script> function changer(){
+				document.getElementById("changer").innerHTML = "votre maison est en bas de chez vous merci de votre commande";
+				document.getElementById("prix").innerHTML = "une somme de 1 euros a été dibéter de votre compt fictife bancaire";
+	}</script>
+	
+	
+	
+</body>
+</html>

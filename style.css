@@ -1,0 +1,18 @@
+body {
+    background-color: pink;
+    font-family: Arial;
+	text-align: center;
+}
+h1{
+	color: white;
+}
+
+Button{
+	font-size: 35px;
+	color: blue;
+	background-color: #E391DD;
+}
+
+#prix{
+	color: red;
+}
